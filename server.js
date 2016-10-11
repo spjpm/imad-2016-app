@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articles={
 "article-one":{
-    title: 'Article-one',
+    title: 'Article-two',
     heading:'Article-two',
     content:`
      <p>
@@ -26,15 +26,11 @@ sites, Fortune 500 companies and celebrities are using
         </p>
     `
 },
-"article-two":{title: 'Article-one',
+"article-two":{title: 'Article-two',
     heading:'Article-two',
     content:`
      <p>
-        WordPress started in 2003 and is now the largest selfhosted
-blogging tool and is used on, literally, millions of
-sites worldwide. You are in good company if you use WordPress to publish
-on the web. Many famous blogs, news outlets, music
-sites, Fortune 500 companies and celebrities are using
+        WordPress started in 2003
         </p>
       <p>
               WordPress started in 2003 and is now the largest selfhosted

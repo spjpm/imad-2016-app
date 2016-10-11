@@ -26,7 +26,25 @@ sites, Fortune 500 companies and celebrities are using
         </p>
     `
 },
-"article-two":{},
+"article-two":{title: 'Article-one',
+    heading:'Article-two',
+    content:`
+     <p>
+        WordPress started in 2003 and is now the largest selfhosted
+blogging tool and is used on, literally, millions of
+sites worldwide. You are in good company if you use WordPress to publish
+on the web. Many famous blogs, news outlets, music
+sites, Fortune 500 companies and celebrities are using
+        </p>
+      <p>
+              WordPress started in 2003 and is now the largest selfhosted
+blogging tool and is used on, literally, millions of
+sites worldwide. You are in good company if you use WordPress to publish
+on the web. Many famous blogs, news outlets, music
+sites, Fortune 500 companies and celebrities are using
+        </p>`
+    
+},
 };
 
 
@@ -68,8 +86,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one',function(req,res){
-    res.send(createTemplate(articleOne));
+app.get('/:articleName',function(req,res){
+    var articleName=req.params.articleName;
+    res.send(createTemplate(articles[articleName]));
 });
 
 

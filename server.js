@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-articleOne:{
+"article-one":{
     title: 'Article-one',
     heading:'Article-two',
     content:`
@@ -26,7 +26,7 @@ sites, Fortune 500 companies and celebrities are using
         </p>
     `
 },
-articleTwo:{},
+"article-two":{},
 };
 
 

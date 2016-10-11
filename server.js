@@ -5,9 +5,9 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var content={
+var articles={
     title: 'Article-one',
-    heading:'Article-two'
+    heading:'Article-two',
     content:
     `
      <p>
@@ -26,6 +26,7 @@ sites, Fortune 500 companies and celebrities are using
         </p>
     `
 }
+
 
 function createTemplate(data)
 var title=data.title;

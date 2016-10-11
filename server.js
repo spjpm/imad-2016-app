@@ -6,10 +6,10 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
+articleOne:{
     title: 'Article-one',
     heading:'Article-two',
-    content:
-    `
+    content:`
      <p>
         WordPress started in 2003 and is now the largest selfhosted
 blogging tool and is used on, literally, millions of
@@ -25,10 +25,13 @@ on the web. Many famous blogs, news outlets, music
 sites, Fortune 500 companies and celebrities are using
         </p>
     `
-}
+},
+articleTwo:{},
+};
 
 
 function createTemplate(data)
+{
 var title=data.title;
 var heading=data.heading;
 var content=data.content;
@@ -57,7 +60,8 @@ var htmlTemplate=
     </body>
 </html>
 `
-;return htmlTemplate;
+;
+return htmlTemplate;
 }
 
 app.get('/', function (req, res) {
@@ -65,14 +69,10 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one',function(req,res){
-    res.send(createTemplate(articleOne)));
+    res.send(createTemplate(articleOne));
 });
-app.get('/article-two',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-});
-app.get('/article-three',function(req,res){
-    res.send('Article three requested and will be served here');
-});
+
+
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));

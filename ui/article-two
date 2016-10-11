@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>
+      Article Two
+      </title>
+      <meta name="viewport" content="width,initial-scale=1">
+    </head>
+  <body>
+      <div>
+          <a href="/">Home</a>
+          </div>
+           <hr/>
+    <div>
+     <h3> Article Two</h3>
+      </div>
+      <hr/>
+    <div>
+      <p>
+        WordPress started in 2003 and is now the largest selfhosted
+blogging tool and is used on, literally, millions of
+sites worldwide. You are in good company if you use WordPress to publish
+on the web. Many famous blogs, news outlets, music
+sites, Fortune 500 companies and celebrities are using
+        </p>
+      <p>
+              WordPress started in 2003 and is now the largest selfhosted
+blogging tool and is used on, literally, millions of
+sites worldwide. You are in good company if you use WordPress to publish
+on the web. Many famous blogs, news outlets, music
+sites, Fortune 500 companies and celebrities are using
+        </p>
+      </div>
+    </body>
+</html>

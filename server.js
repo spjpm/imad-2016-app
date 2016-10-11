@@ -7,8 +7,8 @@ app.use(morgan('combined'));
 
 var articles={
 "article-one":{
-    title: 'Article-two',
-    heading:'Article-two',
+    title: 'Article-One',
+    heading:'Article-One',
     content:`
      <p>
         WordPress started in 2003 and is now the largest selfhosted
@@ -26,8 +26,8 @@ sites, Fortune 500 companies and celebrities are using
         </p>
     `
 },
-"article-two":{title: 'Article-two',
-    heading:'Article-two',
+"article-two":{title: 'Article-Two',
+    heading:'Article-Two',
     content:`
      <p>
         WordPress started in 2003

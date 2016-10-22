@@ -8,15 +8,6 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-.sect{
-    height:100%;
-}
-.subSection
-{
-    height:50%;
-    background-color:bisque;
-    
-}
 #sectOne
 {
     background-image: url("https://cdn-images-1.medium.com/max/1920/1*Vv0HNvRhU0ihKVaBIpDUww.jpeg");

@@ -2,6 +2,12 @@
 body {
     font-family: sans-serif;
     margin-top: 75px;
+     background-image:url('https://ribhuv.files.wordpress.com/2014/09/beautiful-nature-photography-tumblr-3.jpg');
+    background-size:cover;
+    position:relative;
+    top:0;
+    bottom:0;
+    z-index: -10;
 }
 /*
 .center {
@@ -30,10 +36,5 @@ body {
 */
 hero
 {
-    background-image:url('https://ribhuv.files.wordpress.com/2014/09/beautiful-nature-photography-tumblr-3.jpg');
-    background-size:cover;
-    position:relative;
-    top:0;
-    bottom:0;
-    z-index: -10;
+   
 }

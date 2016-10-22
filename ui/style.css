@@ -10,6 +10,9 @@ body
     top : 0;
     bottom:0;
     height: 100vh;
-    
-    
+}
+#overlay
+{
+    position:absolute;
+    background-color: rgba(0,0,0,0.5);
 }

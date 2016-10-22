@@ -1,3 +1,8 @@
+body
+{
+    margin: 0px;
+}
+
 #hero {
     background-image: url('https://cdn-images-1.medium.com/max/1920/1*Vv0HNvRhU0ihKVaBIpDUww.jpeg');
     background-size:cover;

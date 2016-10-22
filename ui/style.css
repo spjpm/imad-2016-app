@@ -1,5 +1,6 @@
-#bgImg {
-    background-image: url("../ui/pc.jpg");
+#hero {
+    background-image: url("/ui/p.jpg");
     background-size:cover;
-
+    
+    
 }

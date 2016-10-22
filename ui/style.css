@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom:20px;
+}
+
+
 .sect{
     height :100%;
 }

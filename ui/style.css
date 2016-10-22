@@ -1,1 +1,9 @@
-#
+#backgroundImg {
+    background-image: url("/ui/pc.jpg");
+    background-size:cover;
+    background-position:center center;
+    top:0;
+    bottom:0;
+    height:100vh;
+    z-index:-10;
+}

@@ -1,14 +1,7 @@
-.body
-{
-    margin: 0px;
-}
-
-h1,h2,h3,h4,h5,h6,p{
-    margin-bottom:20px;
-}
 
 
-#sectOne
+
+#hero
 {
     background-image: url('https://cdn-images-1.medium.com/max/1920/1*Vv0HNvRhU0ihKVaBIpDUww.jpeg');
 }

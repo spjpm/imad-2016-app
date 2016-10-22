@@ -1,8 +1,29 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgrey;
+    margin-top: 75px;
+}
 
+.center {
+    text-align: center;
+}
 
+.text-big {
+    font-size: 300%;
+}
 
-#hero
-{
-    background-image: url("https://cdn-images-1.medium.com/max/1920/1*Vv0HNvRhU0ihKVaBIpDUww.jpeg");
-    background-size: cover;
+.bold {
+    font-weight: bold;
+}
+
+.img-medium {
+    height: 200px;
+}
+
+.main{
+  max-width:800px;
+  margin:0 auto;
+  color:#FF0000;
+  font-family:sans-serif;
+  padding-top:60px;
 }

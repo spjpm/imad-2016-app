@@ -1,6 +1,10 @@
 #hero {
     background-image: url('/ui/p.png');
     background-size:cover;
+    position:relative;
+    top : 0;
+    bottom:0;
+    height: 100vh;
     
     
 }

@@ -1,4 +1,4 @@
-/*
+
 .center {
     text-align: center;
 }
@@ -22,23 +22,5 @@
   font-family:sans-serif;
   padding-top:60px;
 } 
-*/
 
-nav
-{
-    position:fixed;
-    width:100%;
-    height:50px;
-    color:black;
-   
-}
-.subSection
-{
-     height:50%;
-     background-color:bisque;
-}
 
-.sectOne
-{
-    background-image: url('https://s-media-cache-ak0.pinimg.com/originals/0b/54/24/0b5424bbf4c57ba1bc68ffa6d93659f6.jpg');
-}

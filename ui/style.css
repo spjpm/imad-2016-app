@@ -30,7 +30,7 @@ body {
 */
 #hero
 {
-    background-image:url('https://cdn-images-1.medium.com/max/1920/1*vXjx4Y7EgQBwALkaeZJ0Cg.jpeg');
+    background-image:url("https://cdn-images-1.medium.com/max/1920/1*vXjx4Y7EgQBwALkaeZJ0Cg.jpeg");
     background-size:cover;
     position:relative;
     top:0;

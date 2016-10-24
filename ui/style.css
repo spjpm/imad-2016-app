@@ -45,7 +45,7 @@ body {
 .masthead-nav {
     float: right;
 }
-
+/*
 .site-wrapper {
     display: table;
     width: 100%;
@@ -54,6 +54,7 @@ body {
     -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
     box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
+*/
 
 
 
@@ -63,7 +64,7 @@ body {
      background-color:bisque;
 }
 
-/*.sect
+.sect
 {
 	height:100%;
 	background-size:cover;
@@ -72,7 +73,7 @@ body {
 	padding-top:20px;
 	
 }
-*/
+
 
 .sectOne
 {

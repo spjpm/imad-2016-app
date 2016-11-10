@@ -422,13 +422,7 @@ body a:hover { color: #ffffff; }
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h1 class="page-header">This is My Webpage</h1>
-              <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
-        </div>
-        <br>
         
-          
-          
         </div>
       </div>
     </div>

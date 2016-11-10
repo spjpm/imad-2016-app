@@ -422,6 +422,16 @@ body a:hover { color: #ffffff; }
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h1 class="page-header">This is My Webpage</h1>
+          </script>
+        
+        <script type="text/javascript" src="/ui/main.js">
+        </script>
+     <h3> ${heading}</h3>
+      </div>
+      <hr/>
+    <div>
+      ${content}
+      </div>
         
         </div>
       </div>
@@ -462,16 +472,7 @@ $(document).ready(function () {
         $('#wrapper').toggleClass('toggled');
   });  
 });
-</script>
-        
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-     <h3> ${heading}</h3>
-      </div>
-      <hr/>
-    <div>
-      ${content}
-      </div>
+
     </body>
 </html>
 `

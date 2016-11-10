@@ -402,10 +402,8 @@ body a:hover { color: #ffffff; }
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h1 class="page-header">${heading}</h1>
-          </script>
-        
-        
-     <h3> </h3>
+          
+    
       </div>
       <div>
       ${content}

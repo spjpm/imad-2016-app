@@ -16,9 +16,7 @@ blogging tool and is used on, literally, millions of
 sites worldwide. You are in good company if you use WordPress to publish
 on the web. Many famous blogs, news outlets, music
 sites, Fortune 500 companies and celebrities are using
-        </p>
-     
-    `
+        </p>`
 },
 "article-two":{title: 'Article-Two',
     heading:'Article-Two',

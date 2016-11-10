@@ -414,8 +414,7 @@ body a:hover { color: #ffffff; }
         </script>
      <h3> ${heading}</h3>
       </div>
-      <hr/>
-    <div>
+      <div>
       ${content}
       </div>
         

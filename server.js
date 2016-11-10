@@ -382,11 +382,7 @@ body a:hover { color: #ffffff; }
 </style>
     </head>
   <body>
-      <div>
-          <a href="/">Home</a>
-          </div>
-           <hr/>
-    <div>
+      
     <div id="wrapper">
   <div class="overlay"></div>
   

@@ -401,12 +401,11 @@ body a:hover { color: #ffffff; }
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <h1 class="page-header">This is My Webpage</h1>
+          <h1 class="page-header">${heading}</h1>
           </script>
         
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-     <h3> ${heading}</h3>
+        
+     <h3> </h3>
       </div>
       <div>
       ${content}

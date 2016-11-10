@@ -472,7 +472,7 @@ $(document).ready(function () {
         $('#wrapper').toggleClass('toggled');
   });  
 });
-
+</script>
     </body>
 </html>
 `

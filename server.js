@@ -13,19 +13,17 @@ var articles={
     <div>
      <p>
         WordPress started in 2003 and is now the largest selfhosted
-blogging tool and is used on, literally, millions of
-sites worldwide. You are in good company if you use WordPress to publish
-on the web. Many famous blogs, news outlets, music
-sites, Fortune 500 companies and celebrities are using
-        </p></div>`
+        blogging tool and is used on, literally, millions of
+        sites worldwide. You are in good company if you use WordPress to publish
+        on the web. Many famous blogs, news outlets, music
+        sites, Fortune 500 companies and celebrities are using
+        </p>
+        </div>`
 },
 "article-two":{title: 'Article-Two',
     heading:'Article-Two',
     content:`
-     <p>
-        WordPress started in 2003
-        </p>
-      <p>
+         <p>
               WordPress started in 2003 and is now the largest selfhosted
 blogging tool and is used on, literally, millions of
 sites worldwide. You are in good company if you use WordPress to publish

@@ -20,7 +20,24 @@ body {
     height: 200px;
 }
  
+ .sect{
+     height:100%;
+ }
+.subSection{
+height:50%;
+background-color:bisque;
+}
+.sectOne{
+    background-image:url("http://pisces.bbystatic.com//BestBuy_US/store/ee/2015/com/pm/nav_desktops_1115.jpg;maxHeight=288;maxWidth=520");
+}
 
+.sectTwo{
+    background-image:url("http://werehumans.com/wp-content/uploads/2016/04/CodingSnippet.jpg");
+}
+
+.sectThree{
+    background-image:url("http://d.ibtimes.co.uk/en/full/1397132/coding-curriculum-criticism.jpg");
+}
 
 
 

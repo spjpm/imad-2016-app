@@ -50,7 +50,7 @@ var htmlTemplate=
       <meta name="viewport" content="width,initial-scale=1">
        <link href="/ui/style.css" rel="stylesheet" />
        <link href="/ui/style.css" rel="stylesheet" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
 
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">

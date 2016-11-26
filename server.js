@@ -47,7 +47,7 @@ var htmlTemplate=
     <title>
       ${title} 
     </title>
-      <meta name="viewport" content="width,initial-scale=1">
+     
        <link href="/ui/style.css" rel="stylesheet" />
        <link href="/ui/style.css" rel="stylesheet" />
        
